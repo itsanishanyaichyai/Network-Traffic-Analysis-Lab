@@ -1,0 +1,18 @@
+# DNS Traffic Investigation Summary
+
+**Project:** Network Traffic Analysis Lab  
+**Protocol Analyzed:** DNS  
+**Domain Observed:** google.com  
+**Source IP:** 192.168.170.20  
+**Destination IP:** 192.168.170.8  
+
+## Findings
+- A DNS query for `google.com` was identified in the sample packet capture.
+- A DNS response associated with the query was observed.
+- The returned IP address was not recorded during this review.
+- The domain and available packet details did not establish malicious activity.
+
+## Conclusion
+The sample capture demonstrates basic DNS query-and-response analysis in Wireshark. Additional packet details and surrounding traffic would be needed to determine whether any security concern exists.
+
+**Status:** Initial analysis completed; no malicious activity confirmed.

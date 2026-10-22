@@ -1,0 +1,19 @@
+NETWORK TRAFFIC ANALYSIS
+------------------------
+Project: Network Traffic Analysis & Threat Detection Lab
+Analysis Tool: Wireshark
+Evidence Type: DNS Query
+
+Finding 1: DNS Query Analysis
+
+Queried Domain: google.com
+Protocol: DNS
+Query Type: Record the type shown in Wireshark
+
+Observation:
+The packet capture contains a DNS query for google.com, indicating that a client requested DNS resolution for this domain.
+
+Initial Assessment:
+The domain name alone does not indicate malicious activity. Further analysis of the corresponding DNS response and surrounding packets is needed.
+
+Status: Pending Further Investigation

@@ -1,0 +1,16 @@
+NETWORK TRAFFIC ANALYSIS
+------------------------
+Finding 2: DNS Response Analysis
+
+Queried Domain: google.com
+Response Found: Yes
+Response Code: [Enter the response code shown in Wireshark]
+Not recorded — DNS answer details were not identified during this review.
+
+Observation:
+A DNS response corresponding to the query for google.com was identified in the sample packet capture.
+
+Initial Assessment:
+The presence of a DNS response indicates that a reply was captured. The response code and returned address should be reviewed to determine whether resolution succeeded. This evidence alone does not indicate malicious activity.
+
+Status: Recorded for Investigation
